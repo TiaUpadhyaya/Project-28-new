@@ -22,14 +22,14 @@ function setup() {
 
 	ground = new Ground(400,50,800,20);
 	tree = new Tree(650,300,300,400);
-    stone = new Stone(100,100);
-	m1 = new Mango(650,475);
-	m2 = new Mango(600,425);
-	m3 = new Mango(700,525);
-	m4 = new Mango(650,525);
-	m5 = new Mango(600,475);
-	m6 = new Mango(700,425);
-	boy = new Boy(75,200);
+    stone = new Stone(100,100,30,50);
+	m1 = new Mango(650,475,30,50);
+	m2 = new Mango(600,425,30,50);
+	m3 = new Mango(700,525,30,50);
+	m4 = new Mango(650,525,30,50);
+	m5 = new Mango(600,475,30,50);
+	m6 = new Mango(700,425,30,50);
+	boy = new Boy(75,200,30,50);
     chain = new Chain(boy.body,stone.body);
 
 	Engine.run(engine);
